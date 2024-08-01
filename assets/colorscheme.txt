@@ -1,0 +1,8 @@
+font - urbanist
+
+gradient
+- 0% #CAF2EF
+- 50% #C9EFDC
+- 100% #F2BBF1
+
+container and text without container color - #B436BF
