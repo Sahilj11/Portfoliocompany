@@ -20,15 +20,22 @@
                 </div>
                 <div
                     class="nav-links md:static md:min-h-fit absolute bg-container min-h-[100vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
-                    <ul class="flex md:flex-row flex-col text-white text-xl md:items-center md:gap-[4vw] gap-12">
-                        <li>
+                    <ul
+                        class="flex md:flex-row flex-col text-white text-xl md:items-center md:gap-[4vw] gap-12 transition-all">
+                        <li class="relative group">
                             <a class="hover:text-black font-semibold" href="#">About</a>
-                        </li>
-                        <li>
+                            <span
+                                class="hidden group-hover:block text-center absolute top-8 inset-0 m-auto w-2 h-2 bg-white rotate-180 transform"></s
+                                    </li>
+                        <li class="relative group">
                             <a class="hover:text-black font-semibold" href="#">Services</a>
+                            <span
+                                class="hidden group-hover:block text-center absolute top-8 inset-0 m-auto w-2 h-2 bg-white rotate-180 transform"></span>
                         </li>
-                        <li>
+                        <li class="relative group">
                             <a class="hover:text-black font-semibold" href="#">Projects</a>
+                            <span
+                                class="hidden group-hover:block text-center absolute top-8 inset-0 m-auto w-2 h-2 bg-white rotate-180 transform"></span>
                         </li>
                     </ul>
                 </div>
@@ -61,7 +68,7 @@
                     </p>
                     <div class="flex justify-center">
                         <button
-                            class="font-bold inline-flex text-white hover:text-container bg-container border-0 py-2 px-6 focus:outline-none hover:bg-white hover:border-6 rounded text-lg">
+                            class="font-bold inline-flex border-container text-white hover:text-container bg-container border-4 py-2 px-6 hover:bg-white hover:border-4 rounded text-lg drop-shadow-md hover:border-container transition-colors">
                             Learn more about our process
                         </button>
                     </div>
