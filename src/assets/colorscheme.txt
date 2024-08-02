@@ -6,3 +6,7 @@ gradient
 - 100% #F2BBF1
 
 container and text without container color - #B436BF
+
+## section 3
+- button color #277870
+- bg color #73D4CB
