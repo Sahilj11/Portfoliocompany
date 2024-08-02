@@ -26,7 +26,7 @@
                             <a class="hover:text-black font-semibold" href="#">About</a>
                             <span
                                 class="hidden group-hover:block text-center absolute top-8 inset-0 m-auto w-2 h-2 bg-white rotate-180 transform"></span>
-                                    </li>
+                        </li>
                         <li class="relative group">
                             <a class="hover:text-black font-semibold" href="#">Services</a>
                             <span
@@ -53,11 +53,12 @@
         <section
             class="min-h-[100vh] body-font bg-gradient-to-r w-full to-gradientstart via-gradientmiddle from-gradientend flex justify-center items-center">
             <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col relative">
-                <div class="absolute">
-                    <img src="assets/backgroundcircle.svg" alt="" />
+                <div class="absolute md:w-[500px] w-[200px]">
+                    <img src="assets/backgroundcircle.svg" alt="" class="" />
                 </div>
                 <div class="text-center z-10 w-full mt-24">
-                    <h1 class="title-font xl:text-6xl text-container md:text-4xl mb-4 font-bold lg:text-nowrap w-full">
+                    <h1
+                        class="title-font xl:text-5xl 2xl:text-6xl text-container md:text-4xl mb-4 font-bold lg:text-nowrap w-full">
                         Transforming Ideas into Digital Solutions
                     </h1>
                     <p
@@ -68,50 +69,81 @@
                     </p>
                     <div class="flex justify-center">
                         <button
-                        class="font-bold inline-flex border-container text-white hover:text-container bg-container border-4 py-2 px-6 hover:bg-white hover:border-container rounded text-lg drop-shadow-md transition-colors duration-300">
-                        Learn more about our process
-                      </button>
-                      
+                            class="font-bold inline-flex border-container text-white hover:text-container bg-container border-4 py-2 px-6 hover:bg-white hover:border-container rounded text-lg drop-shadow-md transition-colors duration-300">
+                            Learn more about our process
+                        </button>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="bg-gradientstart w-full min-h-[70vh] p-[1px] font-urban">
-            <h1 class="text-center mt-9 text-3xl sm:text-4xl md:text-5xl text-container font-semibold">Our Work</h1>
-            <p class="text-center font-semibold text-xl text-container">A Glimpse into our Digital Masterpieces</p>
+        <div class=" bg-[url('./assets/section2bg.png')] bg-cover bg-center w-full min-h-[70vh] p-[1px] font-urban pb-8">
+            <h1 class="text-center mt-9 text-3xl sm:text-4xl md:text-5xl text-container font-semibold mb-5">
+                Our Work
+            </h1>
+            <p class="text-center font-semibold text-xl text-container mb-5">
+                A Glimpse into our Digital Masterpieces
+            </p>
             <div class="parentdiv w-[90vw] sm:w-[80vw] flex flex-wrap items-center justify-between mx-auto mt-8 gap-4">
-              
-              <div class="right h-[30vh] sm:h-[40vh] md:h-[50vh] p-6 bg-white rounded-lg w-full sm:w-[48%]">right</div>
-              
-              <div class="left p-3 w-full sm:w-[48%] sm:h-[40vh] md:h-[50vh]">
-                <h2 class="bg-container text-xl font-semibold font-urban w-fit p-2 text-white">E-Commerce Platform</h2>
-                <a class="text-blue-700 mt-5 text-lg block" href="#">https://www.example.com</a>
-                <p class="text-container mt-3 text-lg">Expand your business online with our robust e-commerce solutions. From inventory management to seamless checkout experiences, Flowbite provides everything you need to succeed in the digital marketplace.</p>
-                <button class="bg-container rounded-lg px-3 py-1 text-white mt-7">View case study</button>
-              </div>
-              
-              <div class="left p-3 w-full sm:w-[48%] sm:h-[40vh] md:h-[50vh]">
-                <h2 class="bg-container text-white text-xl font-semibold font-urban w-fit p-2">E-Commerce Platform</h2>
-                <a class="text-blue-700 mt-5 text-lg block" href="#">https://www.example.com</a>
-                <p class="text-container mt-3 text-lg">Expand your business online with our robust e-commerce solutions. From inventory management to seamless checkout experiences, Flowbite provides everything you need to succeed in the digital marketplace.</p>
-                <button class="bg-container rounded-lg px-3 py-1 text-white mt-7">View case study</button>
-              </div>
-              
-              <div class="right h-[30vh] sm:h-[40vh] md:h-[50vh] p-6 bg-white rounded-lg w-full sm:w-[48%]">right</div>
-              
-              <div class="right h-[30vh] sm:h-[40vh] md:h-[50vh] p-6 bg-white rounded-lg w-full sm:w-[48%]">right</div>
-              
-              <div class="left p-3 w-full sm:w-[48%] sm:h-[40vh] md:h-[50vh]">
-                <h2 class="bg-container text-xl text-white font-semibold font-urban w-fit p-2">E-Commerce Platform</h2>
-                <a class="text-blue-700 mt-5 text-lg block" href="#">https://www.example.com</a>
-                <p class="text-container mt-3 text-lg">Expand your business online with our robust e-commerce solutions. From inventory management to seamless checkout experiences, Flowbite provides everything you need to succeed in the digital marketplace.</p>
-                <button class="bg-container rounded-lg px-3 py-1 text-white mt-7">View case study</button>
-              </div>
-              
+                <div class="right h-[30vh] sm:h-[40vh] md:h-[50vh] p-6 bg-white rounded-lg w-full sm:w-[48%] drop-shadow-md">
+                    right
+                </div>
+                <div class="left p-3 w-full sm:w-[48%] sm:h-[40vh] md:h-[50vh]">
+                    <h2 class="bg-container text-xl font-semibold font-urban w-fit p-2 text-white">
+                        E-Commerce Platform
+                    </h2>
+                    <a class="text-blue-700 mt-5 text-lg block" href="#">https://www.example.com</a>
+                    <p class="text-container mt-3 text-lg">
+                        Expand your business online with our robust e-commerce solutions.
+                        From inventory management to seamless checkout experiences,
+                        Flowbite provides everything you need to succeed in the digital
+                        marketplace.
+                    </p>
+                    <button class="bg-container rounded-lg px-3 py-2 text-white mt-7 font-bold border-container  hover:text-container border-4 hover:bg-white hover:border-container transition-all">
+                        View case study
+                    </button>
+                </div>
+
+                <div class="left p-3 w-full sm:w-[48%] sm:h-[40vh] md:h-[50vh]">
+                    <h2 class="bg-container text-white text-xl font-semibold font-urban w-fit p-2">
+                        E-Commerce Platform
+                    </h2>
+                    <a class="text-blue-700 mt-5 text-lg block" href="#">https://www.example.com</a>
+                    <p class="text-container mt-3 text-lg">
+                        Expand your business online with our robust e-commerce solutions.
+                        From inventory management to seamless checkout experiences,
+                        Flowbite provides everything you need to succeed in the digital
+                        marketplace.
+                    </p>
+                    <button class="bg-container rounded-lg px-3 py-2 text-white mt-7 font-bold border-container  hover:text-container border-4 hover:bg-white hover:border-container transition-all">
+                        View case study
+                    </button>
+                </div>
+
+                <div class="right h-[30vh] sm:h-[40vh] md:h-[50vh] p-6 bg-white rounded-lg w-full sm:w-[48%] drop-shadow-md">
+                    right
+                </div>
+
+                <div class="right h-[30vh] sm:h-[40vh] md:h-[50vh] p-6 bg-white rounded-lg w-full sm:w-[48%] drop-shadow-md">
+                    right
+                </div>
+
+                <div class="left p-3 w-full sm:w-[48%] sm:h-[40vh] md:h-[50vh]">
+                    <h2 class="bg-container text-xl text-white font-semibold font-urban w-fit p-2">
+                        E-Commerce Platform
+                    </h2>
+                    <a class="text-blue-700 mt-5 text-lg block" href="#">https://www.example.com</a>
+                    <p class="text-container mt-3 text-lg">
+                        Expand your business online with our robust e-commerce solutions.
+                        From inventory management to seamless checkout experiences,
+                        Flowbite provides everything you need to succeed in the digital
+                        marketplace.
+                    </p>
+                    <button class="bg-container rounded-lg px-3 py-2 text-white mt-7 font-bold border-container  hover:text-container border-4 hover:bg-white hover:border-container transition-all">
+                        View case study
+                    </button>
+                </div>
             </div>
-          </div>
-          
-  
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
