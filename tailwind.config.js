@@ -8,6 +8,8 @@ module.exports = {
         gradientstart: '#CAF2EF', // 0%
         gradientmiddle: '#C9EFDC', // 50%
         gradientend: '#F2BBF1', // 100%
+        btncolr:"#277870",
+        bgcolr:"#73D4CB"
       },
       fontFamily:{
         'urban': ["Urbanist"],
