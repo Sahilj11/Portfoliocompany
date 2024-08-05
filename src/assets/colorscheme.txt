@@ -10,3 +10,20 @@ container and text without container color - #B436BF
 ## section 3
 - button color #277870
 - bg color #73D4CB
+
+## service section
+- #47B2A8 green color
+- #949393 paragraph color 
+
+
+Web Development
+Transform your online presence with our custom website design, e-commerce solutions, and CMS development. We create engaging, user-friendly websites that drive traffic and convert visitors into loyal customers.
+
+Mobile App Development
+Bring your ideas to life with our iOS/Android app development and cross-platform solutions. We deliver high-performance, user-centric mobile applications that enhance user experience and drive business growth.
+
+UI/UX Design
+Elevate your brand with our expert UI/UX design services. We specialize in crafting intuitive interfaces, optimizing user experiences, and developing strong brand identities that resonate with your target audience.
+
+Software Development
+Unlock your business potential with our custom software solutions. From API development to backend systems, we provide robust, scalable, and secure software tailored to meet your unique needs.
