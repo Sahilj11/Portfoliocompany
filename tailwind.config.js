@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        container:' #B436BF',
+        container:' #277870',
+        //container:' #B436BF',
         gradientstart: '#CAF2EF', // 0%
         gradientmiddle: '#C9EFDC', // 50%
         gradientend: '#F2BBF1', // 100%
