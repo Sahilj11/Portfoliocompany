@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,34 +9,42 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" type="" href="./output.css" />
 </head>
+
 <body>
     <div class="wraper">
         <!-- NAVIGATION BAR -->
         <nav class="bg-container p-4">
             <div class=" mx-auto flex justify-between items-center">
-              <div class="flex  w-full  items-center justify-between space-x-4">
-                <div class="text-white text-xl">WebBuilder</div>
-                <button  class="px-3 sm:hidden py-1 rounded-lg text-lg bg-white text-container font-semibold font-urban">project</button>
-                <button class="text-white md:hidden block" id="menu-btn">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                  </svg>
+                <div class="flex  w-full  items-center justify-between space-x-4">
+                    <div class="text-white text-xl">WebBuilder</div>
+                    <button
+                        class="px-3 sm:hidden py-1 rounded-lg text-lg bg-white text-container font-semibold font-urban">project</button>
+                    <button class="text-white md:hidden block" id="menu-btn">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+
+                </div>
+                <ul class="hidden text-xl font-urban font-semibold  md:flex w-full mr-[25%]  justify-between space-x-4 text-white"
+                    id="menu">
+                    <li><a href="#" class="hover:text-gray-400">About</a></li>
+                    <li><a href="#" class="hover:text-gray-400">Services</a></li>
+                    <li><a href="#" class="hover:text-gray-400">Projects</a></li>
+                </ul>
+                <button
+                    class="hidden md:block text-lg bg-white  text-container font-semibold font-urban mr-8 px-3 py-1 rounded-lg">Contact
+                    Us
                 </button>
-                
-              </div>
-              <ul class="hidden text-xl font-urban font-semibold  md:flex w-full mr-[25%]  justify-between space-x-4 text-white" id="menu">
-                <li><a href="#" class="hover:text-gray-400">About</a></li>
-                <li><a href="#" class="hover:text-gray-400">Services</a></li>
-                <li><a href="#" class="hover:text-gray-400">Projects</a></li>
-              </ul>
-              <button class="hidden md:block text-lg bg-white  text-container font-semibold font-urban mr-8 px-3 py-1 rounded-lg">Projects </button>
             </div>
             <ul class="md:hidden font-semibold font-lg font-urban text-white space-y-2 p-4 hidden" id="mobile-menu">
-              <li><a href="#" class="block hover:text-gray-400">About</a></li>
-              <li><a href="#" class="block hover:text-gray-400">Services</a></li>
-              <li><a href="#" class="block hover:text-gray-400">Projects</a></li>
+                <li><a href="#" class="block hover:text-gray-400">About</a></li>
+                <li><a href="#" class="block hover:text-gray-400">Services</a></li>
+                <li><a href="#" class="block hover:text-gray-400">Projects</a></li>
             </ul>
-          </nav>
+        </nav>
         <!-- HERO SECTION -->
         <section
             class="min-h-[100vh] body-font bg-gradient-to-r w-full to-gradientstart via-gradientmiddle from-gradientend flex justify-center items-center">
@@ -55,40 +64,50 @@
                         converts.
                     </p>
                     <div class="flex justify-center">
-                       <a href="process.html"> <button
-                            class="font-bold inline-flex border-container text-white hover:text-container bg-container border-4 py-2 px-6 hover:bg-white hover:border-container rounded text-lg drop-shadow-md transition-colors duration-300">
-                            Learn more about our process
-                        </button> </a>
+                        <a href="process.html"> <button
+                                class="font-bold inline-flex border-container text-white hover:text-container bg-container border-4 py-2 px-6 hover:bg-white hover:border-container rounded text-lg drop-shadow-md transition-colors duration-300">
+                                Learn more about our process
+                            </button> </a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- work section -->
-        <div class=" bg-[url('./assets/section2bg.png')] bg-cover bg-center w-full min-h-[70vh] p-[1px] font-urban pb-8">
+        <div
+            class=" bg-[url('./assets/section2bg.png')] bg-cover bg-center w-full min-h-[70vh] p-[1px] font-urban pb-8">
             <h1 class="text-center mt-9 text-3xl sm:text-4xl md:text-5xl text-container font-semibold mb-5">
                 Our Work
             </h1>
             <p class="text-center font-semibold text-xl text-container mb-5">
                 A Glimpse into our Digital Masterpieces
             </p>
-            <div class="parentdiv flex flex-col sm:flex-row w-[90vw] sm:w-[80vw] flex-wrap items-center justify-between mx-auto mt-8 gap-4">
+            <div
+                class="parentdiv flex flex-col sm:flex-row w-[90vw] sm:w-[80vw] flex-wrap items-center justify-between mx-auto mt-8 gap-4">
                 <div class="flex   flex-col md:flex-row md:justify-between w-full sm:h-[50vh]">
                     <div class="right sm:w-[80%]  w-full  rounded-lg  h-[30vh] sm:h-[50vh] md:h-[50vh] bg-white">
                         hel
                     </div>
                     <div class=" ml-5 left sm:w-full mb-5 p-2 w-full sm:h-auto ">
-                        <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">E-Commerce Platform</h3>
+                        <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">E-Commerce
+                            Platform</h3>
                         <a class="text-blue-600" href="#">https://www.example.com</a>
-                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce solutions From inventory managment to seamless checkout experineces.Flowbite provides everything you need to succed in the digital masterplace.</p>
-                        <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case Study</button>
+                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce
+                            solutions From inventory managment to seamless checkout experineces.Flowbite provides
+                            everything you need to succed in the digital masterplace.</p>
+                        <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case
+                            Study</button>
                     </div>
                 </div>
                 <div class="flex gap-10 flex-col-reverse md:flex-row md:justify-between  w-full sm:h-[50vh]">
                     <div class="left sm:w-full mb-5 p-2 w-full sm:h-auto ">
-                        <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">E-Commerce Platform</h3>
+                        <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">E-Commerce
+                            Platform</h3>
                         <a class="text-blue-600" href="#">https://www.example.com</a>
-                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce solutions From inventory managment to seamless checkout experineces.Flowbite provides everything you need to succed in the digital masterplace.</p>
-                        <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case Study</button>
+                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce
+                            solutions From inventory managment to seamless checkout experineces.Flowbite provides
+                            everything you need to succed in the digital masterplace.</p>
+                        <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case
+                            Study</button>
                     </div>
                     <div class="right sm:w-[80%] mb-5 rounded-lg w-full h-[30vh] sm:h-[50vh] bg-white">
                         hel
@@ -99,172 +118,234 @@
                         hel
                     </div>
                     <div class=" ml-5 left sm:w-full mb-5 p-2 w-full sm:h-auto ">
-                        <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">E-Commerce Platform</h3>
+                        <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">E-Commerce
+                            Platform</h3>
                         <a class="text-blue-600" href="#">https://www.example.com</a>
-                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce solutions From inventory managment to seamless checkout experineces.Flowbite provides everything you need to succed in the digital masterplace.</p>
-                        <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case Study</button>
+                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce
+                            solutions From inventory managment to seamless checkout experineces.Flowbite provides
+                            everything you need to succed in the digital masterplace.</p>
+                        <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case
+                            Study</button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- About section -->
-        <div id="about" class="parentdiv  flex flex-col sm:flex-row w-[90vw] sm:w-[80vw] flex-wrap items-center justify-between mx-auto mt-8 gap-4">
-            <div class="flex gap-10 flex-col md:flex-row md:justify-between w-full sm:h-auto">
-                <div class="right w-full sm:w-[100%] rounded-lg h-auto sm:h-[50vh] md:h-[100vh] bg-btncolr p-4">
+        <div id="about"
+            class="parentdiv  flex flex-col sm:flex-row w-[90vw] sm:w-[80vw] flex-wrap items-center justify-between mx-auto mt-8 gap-4">
+            <div class="flex flex-col md:flex-row md:justify-between w-full sm:h-auto">
+                <div class="right w-full sm:w-[100%] h-auto sm:h-[50vh] md:h-[100vh] bg-btncolr p-4">
                     <div class=" mt-28 p-5">
-                    <h3 class="text-3xl  font-urban  font-semibold text-white">Backend Developer and UI/UX Designer</h3>
-                    <p class="text-lg  font-urban font-semibold text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ducimus harum in aspernatur, ea, commodi veritatis dicta ullam mollitia aut culpa labore, sequi consequuntur illo?</p>
-                    <button class="bg-container px-3 py-1 text-white rounded-lg text-lg font-urban mt-5">Connect with Me</button>
+                        <h3 class="text-3xl  font-urban  font-semibold text-white">Backend Developer and UI/UX Designer
+                        </h3>
+                        <p class="text-lg  font-urban font-semibold text-white ">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Officiis ducimus harum in aspernatur, ea, commodi veritatis dicta ullam
+                            mollitia aut culpa labore, sequi consequuntur illo?</p>
+                        <button class="bg-container px-3 py-1 text-white rounded-lg text-lg font-urban mt-5">Connect
+                            with Me</button>
+                    </div>
                 </div>
-            </div>
-                <div class="left relative w-full h-[40vh] sm:w-full p-2 md:h-[100vh] sm:h-[50vh] bg-white mt-4 sm:mt-0">
-                    <div class="absolute bottom-5 right-5 rounded-[50%] h-[204px] w-[204px]   text-center flex items-center text-black  bg-[url('./assets/Dinesh.jpg')] bg-cover shadow-lg shadow-zinc-500  justify-center">
-                        <span class="absolute top-6 p-1 text-xl text-container font-urban font-semibold">Sahil Jalandhara</span>
+                <div class="left relative w-full h-[40vh] sm:w-full md:h-[100vh] sm:h-[50vh] bg-white mt-4 sm:mt-0">
+                    <div class="h-full bg-[url('./assets/Dinesh.jpg')] bg-cover">
+                    </div>
+                    <div
+                        class="absolute bottom-5 right-5 rounded-[50%] h-[204px] w-[204px] text-center flex items-center text-white bg-btncolr justify-center">
+                        <span class="absolute top-6 p-1 text-xl font-urban font-semibold">Sahil Jalandhara</span>
                     </div>
                 </div>
             </div>
-            <div class="flex gap-10 flex-col-reverse md:flex-row md:justify-between w-full sm:h-auto">
-                <div class="left relative w-full h-[40vh] sm:w-full p-2 md:h-[100vh] sm:h-[50vh] bg-white mt-4 sm:mt-0">
-                    <div class="absolute bottom-5 right-5 rounded-[50%] h-[204px] w-[204px]   text-center flex items-center text-black  bg-[url('./assets/Dinesh.jpg')] bg-cover shadow-lg shadow-zinc-500  justify-center">
-                        <span class="absolute top-6 p-1 text-xl text-container font-urban font-semibold">Dinesh Sharma</span>
+            <div class="flex flex-col-reverse md:flex-row md:justify-between w-full sm:h-auto">
+                <div class="left relative w-full h-[40vh] sm:w-full md:h-[100vh] sm:h-[50vh] bg-white mt-4 sm:mt-0">
+                    <div class="h-full bg-[url('./assets/Dinesh.jpg')] bg-cover">
                     </div>
-                 </div>
+                    <div
+                        class="absolute bottom-5 right-5 rounded-[50%] h-[204px] w-[204px] text-center flex items-center text-white bg-btncolr justify-center">
+                        <span class="absolute top-6 p-1 text-xl font-urban font-semibold">Dinesh Sharma</span>
+                    </div>
+                </div>
                 <div class="left w-full sm:w-full p-2 sm:h-auto bg-btncolr mt-4 sm:mt-0">
                     <div class=" mt-40 p-5">
 
-                        <h3 class="text-3xl  font-urban font-semibold text-white">Backend Developer and UI/UX Designer</h3>
-                        <p class="text-lg font-urban font-semibold text-white mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ducimus harum in aspernatur, ea, commodi veritatis dicta ullam mollitia aut culpa labore, sequi consequuntur illo?</p>
-                        <button class="bg-container px-3 py-1 text-white rounded-lg text-lg font-urban mt-5">Connect with Me</button>
+                        <h3 class="text-3xl  font-urban font-semibold text-white">Backend Developer and UI/UX Designer
+                        </h3>
+                        <p class="text-lg font-urban font-semibold text-white mt-4">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Officiis ducimus harum in aspernatur, ea, commodi veritatis
+                            dicta ullam mollitia aut culpa labore, sequi consequuntur illo?</p>
+                        <button class="bg-container px-3 py-1 text-white rounded-lg text-lg font-urban mt-5">Connect
+                            with Me</button>
                     </div>
                 </div>
             </div>
-        </div>  
-    <!-- Services Section  -->
-     
-       <section class="min-h-[100vh]  w-full font-urban flex items-center justify-center flex-col ">
-        
-           <h1 class="text-center text-bgcolr text-5xl  font-semibold">Our Services</h1>
-           <div class="parent-div w-[80vw] mx-auto  mt-5 flex flex-wrap justify-center gap-8 p-4">
-          
-            <div class="first bg-white transition duration-150 ease-out hover:scale-105 shadow-lg shadow-zinc-500 w-full lg:w-[40%] rounded-lg p-4">
-                <h2 class="text-xl text-center font-extrabold">Web Development</h2>
-                <p class="text-md  font-urban text-zinc-500 p-4">Transform Your online presence with our custom website design,e-commerce solutions,and CMS development.We create engaging,user-friendly website that drive traffic and covert vistiors into loyal customers.</p>
-                <button class="mt-2 bg-btncolr flex mx-auto text-white px-4 py-2 rounded">Know More</button>
-            </div>
-            <div class="first bg-white transition duration-150 ease-out hover:scale-105 shadow-lg shadow-zinc-500 w-full lg:w-[40%] rounded-lg p-4">
-                <h2 class="text-xl text-center font-extrabold">Mobile App Development</h2>
-                <p class="text-md text-zinc-500 font-urban p-4">Bring Your ideas to life with iOS/Android app development and cross-platform solutions.We deliver high-perfomance .user-centric mobile applications that enhance user experinece and drive business growth.</p>
-                <button class="mt-2 bg-btncolr flex mx-auto text-white px-4 py-2 rounded">Know More</button>
-            </div>
-            <div class="first bg-white transition duration-150 ease-out hover:scale-105 shadow-lg shadow-zinc-500 rounded-lg w-full lg:w-[40%] p-4">
-                <h2 class="text-xl text-center font-extrabold">UI/UX Design</h2>
-                <p class="text-md text-zinc-500 font-urban p-4">Elevate Your brand with our expert UI/UX design services.We specialize in crafting intuitive interface ,Optimizing user experineces,and developing strong brand identities that resonate with your target audience.</p>
-                <button class="mt-2 bg-btncolr text-white flex  mx-auto  px-4 py-2 rounded">Know More</button>
-            </div>
-            <div class="first shadow-lg transition duration-150 ease-out hover:scale-105 shadow-zinc-500 bg-white rounded-lg w-full lg:w-[40%] p-4">
-                <h2 class="text-xl text-center font-extrabold">Software Development</h2>
-                <p class="text-md text-zinc-500 font-urban p-4">Unlock Your business potential with our custom software solutions.From API development to backend systems.we provide robust,scalable,and secure software tailored to meet your unique needs.</p>
-                <button class="mt-2 bg-btncolr mx-auto flex text-center text-white px-4 py-2 rounded">Know More</button>
-            </div>
         </div>
-        
-       
+        <!-- Services Section  -->
+
+        <section class="min-h-[100vh]  w-full font-urban flex items-center justify-center flex-col ">
+
+            <h1 class="text-center text-bgcolr text-5xl  font-semibold">Our Services</h1>
+            <div class="parent-div w-[80vw] mx-auto  mt-5 flex flex-wrap justify-center gap-8 p-4">
+
+                <div
+                    class="first bg-white transition duration-150 ease-out hover:scale-105 shadow-sm shadow-zinc-500 w-full lg:w-[40%] rounded-lg p-4">
+                    <h2 class="text-xl text-center font-extrabold">Web Development</h2>
+                    <p class="text-md  font-urban text-zinc-500 p-4">Transform Your online presence with our custom
+                        website design,e-commerce solutions,and CMS development.We create engaging,user-friendly website
+                        that drive traffic and covert vistiors into loyal customers.</p>
+                    <button class="mt-2 bg-btncolr flex mx-auto text-white px-4 py-2 rounded">Know More</button>
+                </div>
+                <div
+                    class="first bg-white transition duration-150 ease-out hover:scale-105 shadow-sm shadow-zinc-500 w-full lg:w-[40%] rounded-lg p-4">
+                    <h2 class="text-xl text-center font-extrabold">Mobile App Development</h2>
+                    <p class="text-md text-zinc-500 font-urban p-4">Bring Your ideas to life with iOS/Android app
+                        development and cross-platform solutions.We deliver high-perfomance .user-centric mobile
+                        applications that enhance user experinece and drive business growth.</p>
+                    <button class="mt-2 bg-btncolr flex mx-auto text-white px-4 py-2 rounded">Know More</button>
+                </div>
+                <div
+                    class="first bg-white transition duration-150 ease-out hover:scale-105 shadow-sm shadow-zinc-500 rounded-lg w-full lg:w-[40%] p-4">
+                    <h2 class="text-xl text-center font-extrabold">UI/UX Design</h2>
+                    <p class="text-md text-zinc-500 font-urban p-4">Elevate Your brand with our expert UI/UX design
+                        services.We specialize in crafting intuitive interface ,Optimizing user experineces,and
+                        developing strong brand identities that resonate with your target audience.</p>
+                    <button class="mt-2 bg-btncolr text-white flex  mx-auto  px-4 py-2 rounded">Know More</button>
+                </div>
+                <div
+                    class="first shadow-sm transition duration-150 ease-out hover:scale-105 shadow-zinc-500 bg-white rounded-lg w-full lg:w-[40%] p-4">
+                    <h2 class="text-xl text-center font-extrabold">Software Development</h2>
+                    <p class="text-md text-zinc-500 font-urban p-4">Unlock Your business potential with our custom
+                        software solutions.From API development to backend systems.we provide robust,scalable,and secure
+                        software tailored to meet your unique needs.</p>
+                    <button class="mt-2 bg-btncolr mx-auto flex text-center text-white px-4 py-2 rounded">Know
+                        More</button>
+                </div>
+            </div>
+
+
         </section>
-    <!-- Testimonial section -->
-    <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-            <div class="mx-auto max-w-screen-sm">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Testimonials</h2>
-                <p class="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web components and elements built with the utility classes from Tailwind</p>
-            </div> 
-            <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
-                <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-                    <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Speechless with how easy this was to integrate</h3>
-                        <p class="my-4">"I recently got my hands on Flowbite Pro, and holy crap, I'm speechless with how easy this was to integrate within my application. Most templates are a pain, code is scattered, and near impossible to theme.</p>
-                        <p class="my-4">Flowbite has code in one place and I'm not joking when I say it took me a matter of minutes to copy the code, customise it and integrate within a Laravel + Vue application.</p>
-                        <p class="my-4">If you care for your time, I hands down would go with this."</p>
-                    </blockquote>
-                    <figcaption class="flex justify-center items-center space-x-3">
-                        <img class="w-9 h-9 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture">
-                        <div class="space-y-0.5 font-medium dark:text-white text-left">
-                            <div>Bonnie Green</div>
-                            <div class="text-sm font-light text-gray-500 dark:text-gray-400">Developer at Open AI</div>
-                        </div>
-                    </figcaption>    
-                </figure>
-                <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
-                    <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Solid foundation for any project</h3>
-                        <p class="my-4">"FlowBite provides a robust set of design tokens and components based on the popular Tailwind CSS framework. From the most used UI components like forms and navigation bars to the whole app screens designed both for desktop and mobile, this UI kit provides a solid foundation for any project.</p>
-                        <p class="my-4">Designing with Figma components that can be easily translated to the utility classes of Tailwind CSS is a huge timesaver!"</p>
-                    </blockquote>
-                    <figcaption class="flex justify-center items-center space-x-3">
-                        <img class="w-9 h-9 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="profile picture">
-                        <div class="space-y-0.5 font-medium dark:text-white text-left">
-                            <div>Roberta Casas</div>
-                            <div class="text-sm font-light text-gray-500 dark:text-gray-400">Lead designer at Dropbox</div>
-                        </div>
-                    </figcaption>    
-                </figure>
-                <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-                    <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Mindblowing workflow and variants</h3>
-                        <p class="my-4">"As someone who mainly designs in the browser, I've been a casual user of Figma, but as soon as I saw and started playing with FlowBite my mind was 🤯.</p>
-                        <p class="my-4">Everything is so well structured and simple to use (I've learnt so much about Figma by just using the toolkit).</p>
-                        <p class="my-4">Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application."</p>
-                    </blockquote>
-                    <figcaption class="flex justify-center items-center space-x-3">
-                        <img class="w-9 h-9 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="profile picture">
-                        <div class="space-y-0.5 font-medium dark:text-white text-left">
-                            <div>Jese Leos</div>
-                            <div class="text-sm font-light text-gray-500 dark:text-gray-400">Software Engineer at Facebook</div>
-                        </div>
-                    </figcaption>    
-                </figure>
-                <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
-                    <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Efficient Collaborating</h3>
-                        <p class="my-4">"This is a very complex and beautiful set of elements. Under the hood it comes with the best things from 2 different worlds: Figma and Tailwind.</p>
-                        <p class="my-4">You have many examples that can be used to create a fast prototype for your team."</p>
-                    </blockquote>
-                    <figcaption class="flex justify-center items-center space-x-3">
-                        <img class="w-9 h-9 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile picture">
-                        <div class="space-y-0.5 font-medium dark:text-white text-left">
-                            <div>Joseph McFall</div>
-                            <div class="text-sm font-light text-gray-500 dark:text-gray-400">CTO at Google</div>
-                        </div>
-                    </figcaption>    
-                </figure>
+        <!-- Testimonial section -->
+        <section class="bg-white ">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+                <div class="mx-auto max-w-screen-sm">
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Testimonials</h2>
+                    <p class="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl ">Explore the whole collection of
+                        open-source web components and elements built with the utility classes from Tailwind</p>
+                </div>
+                <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
+                    <figure
+                        class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r">
+                        <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 ">
+                            <h3 class="text-lg font-semibold text-gray-900 ">Speechless with how easy this was to
+                                integrate</h3>
+                            <p class="my-4">"I recently got my hands on Flowbite Pro, and holy crap, I'm speechless with
+                                how easy this was to integrate within my application. Most templates are a pain, code is
+                                scattered, and near impossible to theme.</p>
+                            <p class="my-4">Flowbite has code in one place and I'm not joking when I say it took me a
+                                matter of minutes to copy the code, customise it and integrate within a Laravel + Vue
+                                application.</p>
+                            <p class="my-4">If you care for your time, I hands down would go with this."</p>
+                        </blockquote>
+                        <figcaption class="flex justify-center items-center space-x-3">
+                            <img class="w-9 h-9 rounded-full"
+                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
+                                alt="profile picture">
+                            <div class="space-y-0.5 font-medium text-left">
+                                <div>Bonnie Green</div>
+                                <div class="text-sm font-light text-gray-500 ">Developer at Open AI</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure
+                        class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 ">
+                        <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 ">
+                            <h3 class="text-lg font-semibold text-gray-900 ">Solid foundation for any project</h3>
+                            <p class="my-4">"FlowBite provides a robust set of design tokens and components based on the
+                                popular Tailwind CSS framework. From the most used UI components like forms and
+                                navigation bars to the whole app screens designed both for desktop and mobile, this UI
+                                kit provides a solid foundation for any project.</p>
+                            <p class="my-4">Designing with Figma components that can be easily translated to the utility
+                                classes of Tailwind CSS is a huge timesaver!"</p>
+                        </blockquote>
+                        <figcaption class="flex justify-center items-center space-x-3">
+                            <img class="w-9 h-9 rounded-full"
+                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
+                                alt="profile picture">
+                            <div class="space-y-0.5 font-medium text-left">
+                                <div>Roberta Casas</div>
+                                <div class="text-sm font-light text-gray-500">Lead designer at Dropbox</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure
+                        class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r ">
+                        <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 ">
+                            <h3 class="text-lg font-semibold text-gray-900 ">Mindblowing workflow and variants</h3>
+                            <p class="my-4">"As someone who mainly designs in the browser, I've been a casual user of
+                                Figma, but as soon as I saw and started playing with FlowBite my mind was 🤯.</p>
+                            <p class="my-4">Everything is so well structured and simple to use (I've learnt so much
+                                about Figma by just using the toolkit).</p>
+                            <p class="my-4">Aesthetically, the well designed components are beautiful and will
+                                undoubtedly level up your next application."</p>
+                        </blockquote>
+                        <figcaption class="flex justify-center items-center space-x-3">
+                            <img class="w-9 h-9 rounded-full"
+                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+                                alt="profile picture">
+                            <div class="space-y-0.5 font-medium text-left">
+                                <div>Jese Leos</div>
+                                <div class="text-sm font-light text-gray-500 ">Software Engineer at Facebook</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure
+                        class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12 ">
+                        <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 ">
+                            <h3 class="text-lg font-semibold text-gray-900 ">Efficient Collaborating</h3>
+                            <p class="my-4">"This is a very complex and beautiful set of elements. Under the hood it
+                                comes with the best things from 2 different worlds: Figma and Tailwind.</p>
+                            <p class="my-4">You have many examples that can be used to create a fast prototype for your
+                                team."</p>
+                        </blockquote>
+                        <figcaption class="flex justify-center items-center space-x-3">
+                            <img class="w-9 h-9 rounded-full"
+                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
+                                alt="profile picture">
+                            <div class="space-y-0.5 font-medium text-left">
+                                <div>Joseph McFall</div>
+                                <div class="text-sm font-light text-gray-500 ">CTO at Google</div>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="text-center">
+                    <a href="#"
+                        class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 ">Show
+                        more...</a>
+                </div>
+        </section>
+        <!-- Footer -->
+        <footer class="shadow bg-btncolr">
+            <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <h1 class="font-semibold font-urban text-2xl text-white">Web Builders</h1>
+                    <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 ">
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
+                <span class="block text-sm text-gray-500 sm:text-center">© 2023 <a href="https://flowbite.com/"
+                        class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
             </div>
-            <div class="text-center">
-                <a href="#" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Show more...</a> 
-            </div>
-      </section>
-<!-- Footer -->
-<footer class="  shadow bg-btncolr m-4">
-    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div class="sm:flex sm:items-center sm:justify-between">
-            <h1 class="font-semibold font-urban text-2xl text-black">Web Builders</h1>
-            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
-    </div>
-</footer>
+        </footer>
 
 
     </div>
