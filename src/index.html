@@ -8,6 +8,7 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" type="" href="./output.css" />
+    <link rel="stylesheet" href="scroller.css">
 </head>
 
 <body>
@@ -50,7 +51,7 @@
         </nav>
         <!-- HERO SECTION -->
         <section
-            class="min-h-[100vh] body-font bg-gradient-to-r w-full to-gradientstart via-gradientmiddle from-gradientend flex justify-center items-center">
+            id="hero" class="min-h-[100vh] body-font bg-gradient-to-r w-full to-gradientstart via-gradientmiddle from-gradientend flex justify-center items-center">
             <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col relative">
                 <div class="absolute md:w-[500px] w-[200px]">
                     <img src="assets/backgroundcircle.svg" alt="" class="circle" />
@@ -97,9 +98,7 @@
                         <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">Nike Shoe Website
                         </h3>
                         <a class="text-blue-600" href="https://code-with-dinesh.github.io/Nike/">Project Live Link</a>
-                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce
-                            solutions From inventory managment to seamless checkout experineces.Flowbite provides
-                            everything you need to succed in the digital masterplace.</p>
+                        <p class="text-container text-lg mt-3">A dynamic Nike website showcasing the latest products, integrating sleek UX/UI design with responsive layouts, animated interactions, and smooth navigation, providing users an immersive shopping experience that reflects Nike's brand identity..</p>
                         <!-- <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case
                             Study</button> -->
                     </div>
@@ -108,30 +107,26 @@
                     <div class="left sm:w-full mb-5  w-full sm:h-auto ">
                         <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">F1 Racing Website
                         </h3>
-                        <a class="text-blue-600" href="#">https://www.example.com</a>
-                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce
-                            solutions From inventory managment to seamless checkout experineces.Flowbite provides
-                            everything you need to succed in the digital masterplace.</p>
+                        <!-- <a class="text-blue-600" href="#">https://www.example.com</a> -->
+                        <p class="text-container text-lg mt-3">An engaging F1 car website featuring dynamic animations, real-time race updates, detailed car profiles, and a sleek design, delivering an immersive experience for racing enthusiasts and showcasing F1's high-speed thrills.</p>
                         <!-- <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case
                             Study</button> -->
                     </div>
                     <div
                         class="right sm:w-[80%] flex items-center justify-center   overflow-hidden  w-full  rounded-lg  h-[30vh] sm:h-[50vh] md:h-[40vh] bg-transparent">
-                        <video class="w-full object-cover  " src="./assets/Screen Recording 2024-08-10 155846.mp4" loop
+                        <video class="w-full object-cover rounded-md " src="./assets/Recording 2024-08-11 200642 (1).mp4" loop
                             muted autoplay></video>
                     </div>
                 </div>
                 <div class="flex   flex-col md:flex-row md:justify-between w-full sm:h-[50vh]">
-                    <div class="right sm:w-[80%]  w-full  rounded-lg  h-[30vh] sm:h-[50vh] md:h-[50vh] bg-white">
-                        hel
+                    <div class="right sm:w-[80%]  w-full  rounded-lg  overflow-hidden h-[30vh] sm:h-[50vh] md:h-[50vh] bg-transparent">
+                        <video src="./assets/varnyavid.mp4" class="w-full object-cover rounded-md" muted loop autoplay></video>
                     </div>
                     <div class=" left sm:w-full mb-5 p-2 w-full sm:h-auto ">
                         <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">Ayurveda Clinic
                             Website</h3>
-                        <a class="text-blue-600" href="#">https://www.example.com</a>
-                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce
-                            solutions From inventory managment to seamless checkout experineces.Flowbite provides
-                            everything you need to succed in the digital masterplace.</p>
+                        <!-- <a class="text-blue-600" href="#">https://www.example.com</a> -->
+                        <p class="text-container text-lg mt-3">A serene Ayurveda clinic website offering detailed information on holistic treatments, wellness programs, and natural remedies, with soothing design elements that reflect the essence of ancient healing traditions.</p>
                         <!-- <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case
                             Study</button> -->
                     </div>
@@ -148,8 +143,8 @@
                         </h3>
                         <p class="text-lg  font-urban font-thin text-white ">I'm the perfect fit for your project
                             because I bring a unique blend of backend development and UI/UX design expertise. With
-                            strong skills in <span class="font-bold text-black">Golang, Spring Boot, and PHP</span>, I excel at building robust, scalable systems
-                            that perform efficiently and are easy to maintain. My background in <span class="font-bold text-black">UI/UX design using Figma</span>
+                            strong skills in <span class="font-bold text-yellow-200">Golang, Spring Boot, and PHP</span>, I excel at building robust, scalable systems
+                            that perform efficiently and are easy to maintain. My background in <span class="font-bold text-yellow-200">UI/UX design using Figma</span>
                             ensures that the solutions I create aren't just functional but also intuitive and visually
                             appealing. I understand the importance of aligning technical excellence with great user
                             experience, and I'm confident that I can deliver exactly what you need for a successful
@@ -162,8 +157,8 @@
                 <div class="left-div relative w-full h-[40vh] sm:w-full md:h-[100vh] sm:h-[50vh] bg-white mt-4 sm:mt-0">
                     <img src="./assets/sahilimage.jpeg" alt="" class="h-full sm:w-full object-cover">
                     <div
-                        class="absolute bottom-5 right-5 bg-container duration-300 rounded-[50%] h-[180px] w-[180px] text-center flex items-center text-white  justify-center">
-                        <span class="absolute top-16 p-1  text-xl text-white font-urban font-semibold">Sahil
+                        class="absolute bottom-5 right-5 w-[130px] h-[130px]  bg-container duration-300 rounded-[50%] sm:h-[180px] sm:w-[180px] text-center flex items-center text-white  justify-center">
+                        <span class="absolute top-6 sm:top-16 p-1  text-xl text-white font-urban font-semibold">Sahil
                             Jalandhara</span>
                     </div>
                 </div>
@@ -173,8 +168,8 @@
                     class="left-div-2  relative w-full h-[40vh] sm:w-full md:h-[100vh] sm:h-[50vh] bg-white mt-4 sm:mt-0">
                     <img src="./assets/Dinesh.jpg" alt="" class="h-full sm:w-full">
                     <div
-                        class="absolute bottom-5 right-5 bg-container duration-300 rounded-[50%] h-[180px] w-[180px] text-center flex items-center text-white  justify-center">
-                        <span class="absolute top-16 p-1  text-xl text-white font-urban font-semibold">Dinesh
+                        class="absolute bottom-5 right-5 bg-container duration-300 rounded-[50%] h-[130px] w-[130px] text-center sm:h-[180px] sm:w-[180px] flex items-center text-white  justify-center">
+                        <span class="absolute top-7 sm:top-16 p-1  text-xl text-white font-urban font-semibold">Dinesh
                             Sharma</span>
                     </div>
                 </div>
@@ -184,7 +179,7 @@
                         <h3 class="text-3xl  font-urban font-semibold text-white">Frontend Developer
                         </h3>
                         <p class="text-lg font-urban font-thin text-white mt-4">I'm the perfect fit for your project
-                            because I specialize in frontend development with a strong focus on <strong class="text-black font-bold">React, GSAP, and Framer Motion.</strong>
+                            because I specialize in frontend development with a strong focus on <strong class="text-yellow-200 font-bold">React, GSAP, and Framer Motion.</strong>
                              My expertise in responsive design ensures that the websites and applications I
                             create look great and perform flawlessly on any device. I excel at bringing designs to life
                             with smooth animations and interactive elements, making user experiences engaging and
@@ -334,7 +329,7 @@
                     <h1 class="font-semibold font-urban text-2xl text-white">Web Builders</h1>
                     <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 ">
                         <li>
-                            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                            <a href="#about" class="hover:underline me-4 md:me-6">About</a>
                         </li>
                         <li>
                             <a href="#service" class="hover:underline me-4 md:me-6">Services</a>
@@ -349,8 +344,8 @@
                     </ul>
                 </div>
                 <hr class="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
-                <span class="block text-sm text-gray-500 sm:text-center">© 2023 <a href="https://flowbite.com/"
-                        class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+                <span class="block text-sm text-white sm:text-center">© 2023 <a href="#hero"
+                        class="hover:underline">WebBuilder™</a>. All Rights Reserved.</span>
             </div>
         </footer>
 
