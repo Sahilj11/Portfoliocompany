@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WebBuilder</title>
+    <link rel="shortcut icon" href="./assets/icon.png">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" type="" href="./output.css" />
+    <link rel="stylesheet" href="scroller.css">
 </head>
-
 <body>
     <div class="wraper overflow-x-hidden">
         <!-- NAVIGATION BAR -->
@@ -50,14 +50,14 @@
         </nav>
         <!-- HERO SECTION -->
         <section
-            class="min-h-[100vh] body-font bg-gradient-to-r w-full to-gradientstart via-gradientmiddle from-gradientend flex justify-center items-center">
+            id="hero" class="min-h-[100vh] body-font bg-gradient-to-r w-full to-gradientstart via-gradientmiddle from-gradientend flex justify-center items-center">
             <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col relative">
                 <div class="absolute md:w-[500px] w-[200px]">
                     <img src="assets/backgroundcircle.svg" alt="" class="circle" />
                 </div>
                 <div class="text-center z-10 w-full mt-24">
                     <h1
-                        class="title-font xl:text-5xl 2xl:text-6xl hero-heading text-container md:text-4xl mb-4 font-bold lg:text-nowrap w-full">
+                        class="title-font xl:text-5xl 2xl:text-6xl hero-heading text-container md:text-4xl mb-4 font-bold text-xl lg:text-nowrap w-full">
                         Transforming Ideas into Digital Solutions
                     </h1>
                     <p
@@ -69,7 +69,7 @@
                     <div class="flex justify-center">
                         <a href="process.html"> <button
                                 class="font-bold inline-flex btn border-container text-white hover:text-container bg-container border-4 py-2 px-6 hover:bg-white hover:border-container rounded text-lg drop-shadow-md transition-colors duration-300">
-                                Learn more about our process
+                                Our process
                             </button> </a>
                     </div>
                 </div>
@@ -97,9 +97,7 @@
                         <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">Nike Shoe Website
                         </h3>
                         <a class="text-blue-600" href="https://code-with-dinesh.github.io/Nike/">Project Live Link</a>
-                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce
-                            solutions From inventory managment to seamless checkout experineces.Flowbite provides
-                            everything you need to succed in the digital masterplace.</p>
+                        <p class="text-container text-lg mt-3">A dynamic Nike website showcasing the latest products, integrating sleek UX/UI design with responsive layouts, animated interactions, and smooth navigation, providing users an immersive shopping experience that reflects Nike's brand identity..</p>
                         <!-- <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case
                             Study</button> -->
                     </div>
@@ -108,30 +106,26 @@
                     <div class="left sm:w-full mb-5  w-full sm:h-auto ">
                         <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">F1 Racing Website
                         </h3>
-                        <a class="text-blue-600" href="#">https://www.example.com</a>
-                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce
-                            solutions From inventory managment to seamless checkout experineces.Flowbite provides
-                            everything you need to succed in the digital masterplace.</p>
+                        <!-- <a class="text-blue-600" href="#">https://www.example.com</a> -->
+                        <p class="text-container text-lg mt-3">An engaging F1 car website featuring dynamic animations, real-time race updates, detailed car profiles, and a sleek design, delivering an immersive experience for racing enthusiasts and showcasing F1's high-speed thrills.</p>
                         <!-- <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case
                             Study</button> -->
                     </div>
                     <div
                         class="right sm:w-[80%] flex items-center justify-center   overflow-hidden  w-full  rounded-lg  h-[30vh] sm:h-[50vh] md:h-[40vh] bg-transparent">
-                        <video class="w-full object-cover  " src="./assets/Screen Recording 2024-08-10 155846.mp4" loop
+                        <video class="w-full object-cover rounded-md " src="./assets/Recording 2024-08-11 200642 (1).mp4" loop
                             muted autoplay></video>
                     </div>
                 </div>
                 <div class="flex   flex-col md:flex-row md:justify-between w-full sm:h-[50vh]">
-                    <div class="right sm:w-[80%]  w-full  rounded-lg  h-[30vh] sm:h-[50vh] md:h-[50vh] bg-white">
-                        hel
+                    <div class="right sm:w-[80%]  w-full  rounded-lg  overflow-hidden h-[30vh] sm:h-[50vh] md:h-[50vh] bg-transparent">
+                        <video src="./assets/varnyavid.mp4" class="w-full object-cover rounded-md" muted loop autoplay></video>
                     </div>
                     <div class=" left sm:w-full mb-5 p-2 w-full sm:h-auto ">
                         <h3 class="bg-container w-fit p-2 font-urban text-xl font-semibold text-white">Ayurveda Clinic
                             Website</h3>
-                        <a class="text-blue-600" href="#">https://www.example.com</a>
-                        <p class="text-container text-lg mt-3">Expend your business online with our robust e-commerce
-                            solutions From inventory managment to seamless checkout experineces.Flowbite provides
-                            everything you need to succed in the digital masterplace.</p>
+                        <!-- <a class="text-blue-600" href="#">https://www.example.com</a> -->
+                        <p class="text-container text-lg mt-3">A serene Ayurveda clinic website offering detailed information on holistic treatments, wellness programs, and natural remedies, with soothing design elements that reflect the essence of ancient healing traditions.</p>
                         <!-- <button class="bg-container text-white font-urban text-xl px-2 py-1 rounded-lg mt-5">View Case
                             Study</button> -->
                     </div>
@@ -148,8 +142,8 @@
                         </h3>
                         <p class="text-lg  font-urban font-thin text-white ">I'm the perfect fit for your project
                             because I bring a unique blend of backend development and UI/UX design expertise. With
-                            strong skills in <span class="font-bold text-black">Golang, Spring Boot, and PHP</span>, I excel at building robust, scalable systems
-                            that perform efficiently and are easy to maintain. My background in <span class="font-bold text-black">UI/UX design using Figma</span>
+                            strong skills in <span class="font-bold text-yellow-200">Golang, Spring Boot, and PHP</span>, I excel at building robust, scalable systems
+                            that perform efficiently and are easy to maintain. My background in <span class="font-bold text-yellow-200">UI/UX design using Figma</span>
                             ensures that the solutions I create aren't just functional but also intuitive and visually
                             appealing. I understand the importance of aligning technical excellence with great user
                             experience, and I'm confident that I can deliver exactly what you need for a successful
@@ -160,10 +154,10 @@
                     </div>
                 </div>
                 <div class="left-div relative w-full h-[40vh] sm:w-full md:h-[100vh] sm:h-[50vh] bg-white mt-4 sm:mt-0">
-                    <img src="./assets/sahilimage.jpeg" alt="" class="h-full sm:w-full object-cover">
+                    <img src="./assets/sahilimage.jpeg" alt="" class="h-full bg-black sm:w-full object-fill">
                     <div
-                        class="absolute bottom-5 right-5 bg-container duration-300 rounded-[50%] h-[180px] w-[180px] text-center flex items-center text-white  justify-center">
-                        <span class="absolute top-16 p-1  text-xl text-white font-urban font-semibold">Sahil
+                        class="absolute bottom-5 right-5 w-[130px] h-[130px]  bg-container duration-300 rounded-[50%] sm:h-[180px] sm:w-[180px] text-center flex items-center text-white  justify-center">
+                        <span class="absolute top-6 sm:top-16 p-1  text-xl text-white font-urban font-semibold">Sahil
                             Jalandhara</span>
                     </div>
                 </div>
@@ -173,8 +167,8 @@
                     class="left-div-2  relative w-full h-[40vh] sm:w-full md:h-[100vh] sm:h-[50vh] bg-white mt-4 sm:mt-0">
                     <img src="./assets/Dinesh.jpg" alt="" class="h-full sm:w-full">
                     <div
-                        class="absolute bottom-5 right-5 bg-container duration-300 rounded-[50%] h-[180px] w-[180px] text-center flex items-center text-white  justify-center">
-                        <span class="absolute top-16 p-1  text-xl text-white font-urban font-semibold">Dinesh
+                        class="absolute bottom-5 right-5 bg-container duration-300 rounded-[50%] h-[130px] w-[130px] text-center sm:h-[180px] sm:w-[180px] flex items-center text-white  justify-center">
+                        <span class="absolute top-7 sm:top-16 p-1  text-xl text-white font-urban font-semibold">Dinesh
                             Sharma</span>
                     </div>
                 </div>
@@ -184,7 +178,7 @@
                         <h3 class="text-3xl  font-urban font-semibold text-white">Frontend Developer
                         </h3>
                         <p class="text-lg font-urban font-thin text-white mt-4">I'm the perfect fit for your project
-                            because I specialize in frontend development with a strong focus on <strong class="text-black font-bold">React, GSAP, and Framer Motion.</strong>
+                            because I specialize in frontend development with a strong focus on <strong class="text-yellow-200 font-bold">React, GSAP, and Framer Motion.</strong>
                              My expertise in responsive design ensures that the websites and applications I
                             create look great and perform flawlessly on any device. I excel at bringing designs to life
                             with smooth animations and interactive elements, making user experiences engaging and
@@ -242,8 +236,7 @@
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
                 <div class="mx-auto max-w-screen-sm">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold">Testimonials</h2>
-                    <p class="mb-8 font-light lg:mb-16 sm:text-xl ">Explore the whole collection of
-                        open-source web components and elements built with the utility classes from Tailwind</p>
+                    <p class="mb-8 font-light lg:mb-16 sm:text-xl "> Clients Feedback on Our Web and Mobile Development, UI/UX Design, and Freelance Services.</p>
                 </div>
                 <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
                     <figure
@@ -277,7 +270,7 @@
 
                         </blockquote>
                         <figcaption class="flex justify-center items-center space-x-3">
-                            <img class="w-10 h-10 rounded-full" src="./assets/navneet.jpg" alt="profile picture">
+                            <img class="w-10 h-10 rounded-full object-cover" src="./assets/navneet.jpg" alt="profile picture">
                             <div class="space-y-0.5 font-medium text-left">
                                 <div>Navneet Sharma</div>
                             </div>
@@ -294,8 +287,8 @@
                                 would definitely recommend them to others."</p>
                         </blockquote>
                         <figcaption class="flex justify-center items-center space-x-3">
-                            <img class="w-10 h-10 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+                            <img class="w-10 h-10 rounded-full object-cover"
+                                src="./assets/ritu.jpg"
                                 alt="profile picture">
                             <div class="space-y-0.5 font-medium text-left">
                                 <div>Ritu Yadav</div>
@@ -313,7 +306,7 @@
                                 extremely satisfied and look forward to future collaborations."</p>
                         </blockquote>
                         <figcaption class="flex justify-center items-center space-x-3">
-                            <img class="w-10 h-10 rounded-full" src="./assets/komal.jpg" alt="profile picture">
+                            <img class="w-10 h-10 rounded-full object-cover" src="./assets/komal.jpg" alt="profile picture">
                             <div class="space-y-0.5 font-medium text-left">
                                 <div>Komal Yadav</div>
 
@@ -334,7 +327,7 @@
                     <h1 class="font-semibold font-urban text-2xl text-white">Web Builders</h1>
                     <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 ">
                         <li>
-                            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                            <a href="#about" class="hover:underline me-4 md:me-6">About</a>
                         </li>
                         <li>
                             <a href="#service" class="hover:underline me-4 md:me-6">Services</a>
@@ -349,8 +342,8 @@
                     </ul>
                 </div>
                 <hr class="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
-                <span class="block text-sm text-gray-500 sm:text-center">© 2023 <a href="https://flowbite.com/"
-                        class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+                <span class="block text-sm text-white sm:text-center">© 2024 <a href="#hero"
+                        class="hover:underline">WebBuilder™</a>. All Rights Reserved.</span>
             </div>
         </footer>
 
